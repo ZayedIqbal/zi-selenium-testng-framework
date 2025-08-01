@@ -20,7 +20,7 @@ public class LoginPage {
 		driver.findElement(usernameTextBox).sendKeys("username");
 	}
 	
-	public void enterPasword(String password) {
+	public void enterPassword(String password) {
 		driver.findElement(passwordTextBox).clear();
 		driver.findElement(passwordTextBox).sendKeys("password");
 	
